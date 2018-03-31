@@ -66,21 +66,29 @@ ul{
   margin-left: 10%;
   width: 80%;
   background-color: #ffffff;
+  text-align: justify;
+}
+.content ul{
+  margin-top: 0;
+  text-indent: 1em;
 }
 #home{
   height: 450px;
 }
 #us{
-  height: 500px;
+  margin-left: 20%;
+  width: 60%;
+  height: 330px;
 }
 #in{
   height: 650px;
 }
 footer{
-  margin-top:5%;
+  margin-top: 5%;
 }
 p{
   color: #000000;
+  margin: 6px;
 }
 a{
   color: #ffffff;
