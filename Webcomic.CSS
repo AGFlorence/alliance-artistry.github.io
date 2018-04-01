@@ -42,7 +42,7 @@ ul{
   background-color: #be0627;
 }
 .TopNav a{
-	font-size: 16px;
+	font-size: 20px;
   color: #fffdac;
   text-decoration: none;
 	padding: 15px 5px;
@@ -50,6 +50,32 @@ ul{
 	margin:0;
 }
 .TopNav a:hover {
+  color: #be0627;
+	background-color: #fffdac;
+}
+.LeftNav{
+  display: block;
+  width: 13%;
+  position: absolute;
+  left: 1%;
+  margin-top: 110px;
+  background-color: #be0627;
+  border-radius: 25px;
+}
+#top{
+  font-size: 24px;
+  padding-top: 5px;
+  border-bottom: dashed 3px #252323;
+}
+.LeftNav a{
+	font-size: 16px;
+  color: #fffdac;
+  text-decoration: none;
+	padding: 15px 20px;
+	display:inline-block;
+	margin:3px;
+}
+.LeftNav a:hover {
   color: #be0627;
 	background-color: #fffdac;
 }
@@ -75,13 +101,20 @@ ul{
 #home{
   height: 450px;
 }
+#product{
+  margin-left: 15%;
+  width: 70%;
+  height: 500px;
+}
 #us{
   margin-left: 20%;
   width: 60%;
   height: 330px;
 }
 #in{
-  height: 650px;
+  margin-left: 20%;
+  width: 60%;
+  height: 330px;
 }
 footer{
   margin-top: 5%;
