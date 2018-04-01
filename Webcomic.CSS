@@ -62,11 +62,6 @@ ul{
   background-color: #be0627;
   border-radius: 25px;
 }
-#top{
-  font-size: 24px;
-  padding-top: 5px;
-  border-bottom: dashed 3px #252323;
-}
 .LeftNav a{
 	font-size: 16px;
   color: #fffdac;
@@ -78,6 +73,32 @@ ul{
 .LeftNav a:hover {
   color: #be0627;
 	background-color: #fffdac;
+}
+.RightNav{
+  display: block;
+  width: 13%;
+  position: absolute;
+  left: 85%;
+  margin-top: 110px;
+  background-color: #be0627;
+  border-radius: 25px;
+}
+.RightNav a{
+	font-size: 16px;
+  color: #fffdac;
+  text-decoration: none;
+	padding: 15px 20px;
+	display:inline-block;
+	margin:3px;
+}
+.RightNav a:hover {
+  color: #be0627;
+	background-color: #fffdac;
+}
+#top{
+  font-size: 22px;
+  padding-top: 5px;
+  border-bottom: dashed 3px #252323;
 }
 #logo{
   display: inline-block;
