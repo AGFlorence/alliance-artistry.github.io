@@ -140,6 +140,11 @@ ul{
 }
 footer{
   margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+footer li{
+  display: inline-block;
 }
 p{
   color: #000000;
@@ -166,14 +171,14 @@ a{
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 2%;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 60%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
