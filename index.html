@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="functions.js"></script>
   <meta name="author" content="Alexander Florence">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alliance-artistry</title>
@@ -26,13 +27,24 @@
     <section>
       <div class="content" id="home">
         <picture>
-          <img id="logo" src="images/logo.png" alt="this is our logo"> (--this will be changed
+          <img id="logo" src="images/logo.png" alt="this is our logo">
         </picture>
       </div>
     </section>
     <footer>
       <ul>
         <li><a href="#header">to top</a></li>
+      </ul>
+      <ul>
+        <li>
+          <button id="myBtn">T&C</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>here are our terms and conditions</p>
+            </div>
+          </div>
+        </li>
       </ul>
     </footer>
   </main>
