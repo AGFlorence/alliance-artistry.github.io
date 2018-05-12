@@ -8,13 +8,13 @@ function CloseTC(){
   let modal = document.getElementById('TC');
   modal.style.display = "none";
 }
-function OpenLang(){
+function OpenLang() {
   console.log("Expanding information")
   let modal = document.getElementById('Lang');
   modal.style.display = "block";
 }
 function CloseLang(){
-  console.log("hiding information")
+  console.log("Expanding information")
   let modal = document.getElementById('Lang');
   modal.style.display = "none";
 }
