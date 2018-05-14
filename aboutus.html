@@ -53,11 +53,30 @@
       </ul>
       <ul>
         <li>
-          <button id="myBtn" onclick="Toogle()">T&C</button>
-          <div id="myModal" class="modal">
+          <button id="BTN_TC" onclick="OpenTC()">T&C</button>
+          <div id="TC" class="modal">
             <div class="modal-content">
-              <span class="close" onclick="close()">&times;</span>
+              <button class="close" onclick="CloseTC()">&times;</button>
               <p>here are our terms and conditions</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button id="BTN_Lang" onclick="OpenLang()">language changer</button>
+          <div id="Lang" class="modal">
+            <div class="modal-content">
+              <button class="close" onclick="CloseLang()">&times;</button>
+              <p>here we will apply a function to alter the text language on the whole page</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button id="BTN_CRD" onclick="OpenCRD()">Colour blind mode</button>
+          <div id="CRD" class="modal">
+            <div class="modal-content">
+              <button class ="close" onclick="CloseCRD()">&times;</button>
+              <p>here the user will be able to input a colour blindness issue</p>
+              <p>the website will re-colour to compensate</p>
             </div>
           </div>
         </li>

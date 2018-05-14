@@ -32,7 +32,7 @@
     </section>
     <footer>
       <ul>
-        <li><a href="#header">to top</a></li>
+        <li><button><a href="#header">to top</a></button></li>
       </ul>
       <ul>
         <li>
@@ -50,6 +50,16 @@
             <div class="modal-content">
               <button class="close" onclick="CloseLang()">&times;</button>
               <p>here we will apply a function to alter the text language on the whole page</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button id="BTN_CRD" onclick="OpenCRD()">Colour blind mode</button>
+          <div id="CRD" class="modal">
+            <div class="modal-content">
+              <button class ="close" onclick="CloseCRD()">&times;</button>
+              <p>here the user will be able to input a colour blindness issue</p>
+              <p>the website will re-colour to compensate</p>
             </div>
           </div>
         </li>

@@ -18,3 +18,13 @@ function CloseLang(){
   let modal = document.getElementById('Lang');
   modal.style.display = "none";
 }
+function OpenCRD(){
+  console.log("Expanding information")
+  let modal = document.getElementById('CRD');
+  modal.style.display = "block";
+}
+function CloseCRD(){
+  console.log("Expanding information")
+  let modal = document.getElementById('CRD');
+  modal.style.display = "none";
+}
